@@ -1,0 +1,54 @@
+.navbar {
+  -moz-box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+  -ms-box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+  -o-box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+}
+.navbar:before {
+  content: "";
+  height: 8px;
+  width: 100%;
+  background-image: url(https://res.cloudinary.com/dp0m5mp1s/image/upload/v1691859637/Darbuokis.lt/pattern_ryxfdv.webp);
+  background-position: top center;
+  background-repeat: repeat-x;
+  background-size: contain;
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  z-index: 10;
+}
+
+.navbarLink__icon {
+  margin-bottom: 3px;
+  padding-right: 3px;
+}
+
+.search__main {
+  position: relative;
+}
+
+.search__results__block {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.search__results {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search__result__pic {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
